@@ -1,0 +1,23 @@
+row_id,,,,,,,,,
+loan_type,,,,,,,msa_md,categorical,A categorical with no ordering indicating Metropolitan Statistical Area/Metropolitan Division where a value of -1 indicates a missing value
+property_type,,,,,,,state_code,categorical,A categorical with no ordering indicating the U.S. state where a value of -1 indicates a missing value
+loan_purpose,,,,,,,county_code,categorical,A categorical with no ordering indicating the county where a value of -1 indicates a missing value
+occupancy,,,,,,,lender,categorical,A categorical with no ordering indicating which of the lenders was the authority in approving or denying this loan
+loan_amount,,,,,,,loan_amount,int,Size of the requested loan in thousands of dollars
+preapproval,,,,,,,loan_type,categorical,"Indicates whether the loan granted, applied for, or purchased was conventional (1), FHA-insured(2), VA-guaranteed(3), Farm Service Agency or Rural Housing Service(4)"
+msa_md,,,,,,,property_type,categorical,"Indicates whether the loan or application was for a one-to-four-family dwelling (other than manufactured housing) = 1, manufactured housing - 2, or multifamily dwelling - 3"
+state_code,,,,,,,loan_purpose,categorical,"Indicates whether the purpose of the loan or application was for home purchase (1), home improvement (2), or refinancing (3)"
+county_code,,,,,,,occupancy,categorical,"Indicates whether the property to which the loan application relates will be the owner's principal dwelling (1), not owner-occupied (2), not applicable (3)"
+applicant_ethnicity,,,,,,,preapproval,categorical,"Indicate whether the application or loan involved a request for a pre-approval of a home purchase loan; available values are yes (1), no (2), or not applicable (3)"
+applicant_race,,,,,,,applicant_income,int,In thousands of dollars
+applicant_sex,,,,,,,applicant_ethnicity,categorical,"Ethnicity of the applicant; available values are (1) Hispanic or Latino, (2) Not Hispanic or Latino, (3) Information not provided by applicant, (4) Not applicable"
+applicant_income,,,,,,,,,
+population,,,,,,,,,
+minority_population_pct,,,,,,,,,
+ffiecmedian_family_income,,,,,,,,,
+tract_to_msa_md_income_pct,,,,,,,,,
+number_of_owner-occupied_units,,,,,,,,,
+number_of_1_to_4_family_units,,,,,,,,,
+lender,,,,,,,,,
+co_applicant,,,,,,,,,
+rate_spread,,,,,,,,,
